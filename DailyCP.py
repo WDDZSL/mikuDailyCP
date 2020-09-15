@@ -334,7 +334,7 @@ if __name__ == "__main__":
     app = DailyCP("合肥工业大学")
     if not app.login(sys.argv[1], sys.argv[2]):
         exit()
-    app.autoComplete("中国安徽省合肥市蜀山区丹霞路", "./formdb")
+    app.autoComplete("中国安徽省合肥市蜀山区翠湖苑商业街1-109号", "./formdb")
 
 # Author:HuangXu,FengXinYang,ZhouYuYang.
 # By:AUST HACKER
